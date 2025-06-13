@@ -1,0 +1,7 @@
+<h4>Name:<%=@kitten.name%></h4>
+<h4>Age:<%=@kitten.age%></h4>
+<h4>Softness:<%=@kitten.softness%></h4>
+<h4>Cuteness:<%=@kitten.cuteness%></h4>
+<%=link_to "All Kittens",kittens_path%>
+<%=link_to "Edit Kitten",edit_kitten_path%>
+<%=link_to "Delete Kitten",kitten_path, data:{"turbo-method": :delete}%>
